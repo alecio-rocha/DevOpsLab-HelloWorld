@@ -17,7 +17,7 @@ script:
   - python test.py
 
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
-Deploy:
+deploy:
   provider: heroku
   api-key: 
     secure: $MALOCA_HEROKU_API_KEY
