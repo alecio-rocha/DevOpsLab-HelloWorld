@@ -5,6 +5,9 @@ language: python
 python:
   - "3.6.3"
 
+# Mudando para uma outra pilha
+heroku stack:set heroku-18
+
 # Instalação de Módulos que são necessários para a Aplicação.
 install:
   - pip install -r requirements.txt
